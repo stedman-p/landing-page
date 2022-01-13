@@ -8,74 +8,96 @@ body {
 
 /* colors and font styles */
 
-.header, .footer, .hero {
+.header, .footer {
   background-color: #1F2937;
 }
 
 .header {
+  display:flex;
+  flex-direction: column;
+}
+
+.header-top {
   display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
 .header-logo {
   font-size: 24px;
+  padding: 4px;
 }
 
 .header-links {
-
+  padding: 8px;
 }
 
 .header-links a {
-
+  margin: 0px 8px
 }
 
-.hero {
-
+.header-bottom {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0px;
+  max-width: 900px;
+  align-self: center;
 }
 
-.hero-text {
-
+.header-text {
+  flex: 1 1 1;
 }
 
-.hero-main-text {
+.header-main-text {
   font-size: 48px;
   font-weight: bolder;
+  
 }
 
-.hero-secondary-text {
+.header-secondary-text {
   font-size: 18px;
   font-weight: #E5E7EB;
 }
 
-.hero button {
+.header button {
   background-color: #3882F6;
   color: #F9FAF8;
   border-radius: 2px;
   border-style: none;
   padding: 8px 23px;
   font-weight: 700;
+  margin-top: 8px;
 }
 
-.hero-img {
-  background-color: #6d747d; 
+.header-img {
+  background-color: #6d747d;
+  min-width: 450px;
+  text-align: center;
 }
 
 .information {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .information-header {
   color: #1F2937;
   font-size: 36px;
   font-weight: bolder;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.information-cards {
-
+.info-cards {
+  align-self: center; 
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .info-card {
   color: #1F2937;
-  
+  text-align: center;
+  margin: 8px 16px;
 }
 
 .info-card img {
@@ -87,6 +109,15 @@ body {
 
 .quote {
   background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.quote-content {
+  max-width: 700px;
+  align-self: center;
 }
 
 .quote p {
@@ -94,38 +125,53 @@ body {
   font-style: italic;
   font-size: 36px;
   font-weight: lighter;
+  margin: 10px 0px;
 }
 
 .quote-citation {
   color: #1F2937;
+  font-weight: 700;
+  text-align: right;
+  margin-bottom: 20px;
 }
 
 
 .call-to-action {
   background-color: #3882F6;
+  margin: 50px auto;
+  padding: 10px 16px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .call-to-action-text {
-
+  margin: 20px;
 }
 
 .call-to-action-text h5 {
-
+  margin: 0px;
+  font-weight: 800;
 }
 
 .call-to-action-text p {
-
+  margin: 0px;
 }
 
-.call-to-action button {
+.call-to-action-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.call-to-action-button button {
+  border: solid #F9FAF8 2px;
   background-color: #3882F6;
   color: #F9FAF8;
-  border-radius: 3px;
-  border: solid #F9FAF8 2px;
+  border-radius: 2px;
   padding: 8px 23px;
   font-weight: 700;
 }
 
 .footer {
-
+  text-align: center;
 }
