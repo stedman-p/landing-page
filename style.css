@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  flex-direction: column;
+  color: #F9FAF8;
+}
+
+/* colors and font styles */
+
+.header, .footer, .hero {
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+button {
+  background-color: #3882F6;
+}
+
+.header-links {
+
+}
+
+.header-links a {
+
+}
+
+.hero {
+
+}
+
+.hero-text {
+
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  font-weight: #E5E7EB;
+}
+
+.hero-img {
+
+}
+
+.information {
+
+}
+
+.information-header {
+
+}
+
+.information-cards {
+
+}
+
+.info-card {
+
+}
+
+.quote {
+
+}
+
+.quote p {
+
+}
+
+.quote-citation {
+
+}
+
+.call-to-action-text {
+
+}
+
+.call-to-action-text h5 {
+
+}
+
+.call-to-action-text p {
+
+}
+
+.call-to-action-text button {
+
+}
+
+.footer {
+  
+}
