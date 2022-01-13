@@ -2,6 +2,8 @@ body {
   display: flex;
   flex-direction: column;
   color: #F9FAF8;
+  font-family: sans-serif;
+  margin: 0;
 }
 
 /* colors and font styles */
@@ -49,7 +51,7 @@ button {
 }
 
 .hero-img {
-
+  background-color: #6d747d; 
 }
 
 .information {
@@ -57,7 +59,9 @@ button {
 }
 
 .information-header {
-
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
 }
 
 .information-cards {
@@ -65,19 +69,34 @@ button {
 }
 
 .info-card {
+  color: #1F2937;
+  
+}
 
+.info-card img {
+  border: solid #3882F6 2px;
+  border-radius: 5%;
+  width: 150px;
+  height: 150px;
 }
 
 .quote {
-
+  background-color: #E5E7EB;
 }
 
 .quote p {
-
+  color: #1F2937;
+  font-style: italic;
+  font-size: 36px;
 }
 
 .quote-citation {
+  color: #1F2937;
+}
 
+
+.call-to-action {
+  background-color: #3882F6;
 }
 
 .call-to-action-text {
@@ -93,9 +112,9 @@ button {
 }
 
 .call-to-action-text button {
-
+  border: solid #F9FAF8
 }
 
 .footer {
-  
+
 }
