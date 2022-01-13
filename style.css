@@ -20,10 +20,6 @@ body {
   font-size: 24px;
 }
 
-button {
-  background-color: #3882F6;
-}
-
 .header-links {
 
 }
@@ -48,6 +44,15 @@ button {
 .hero-secondary-text {
   font-size: 18px;
   font-weight: #E5E7EB;
+}
+
+.hero button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 2px;
+  border-style: none;
+  padding: 8px 23px;
+  font-weight: 700;
 }
 
 .hero-img {
@@ -88,6 +93,7 @@ button {
   color: #1F2937;
   font-style: italic;
   font-size: 36px;
+  font-weight: lighter;
 }
 
 .quote-citation {
@@ -111,8 +117,13 @@ button {
 
 }
 
-.call-to-action-text button {
-  border: solid #F9FAF8
+.call-to-action button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 3px;
+  border: solid #F9FAF8 2px;
+  padding: 8px 23px;
+  font-weight: 700;
 }
 
 .footer {
